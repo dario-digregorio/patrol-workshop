@@ -23,6 +23,7 @@ class PTElevatedButton extends StatelessWidget {
     return SizedBox(
       height: 48,
       child: ElevatedButton(
+        key: ValueKey('elevated_button'),
         style: ButtonStyle(
           textStyle: _textStyle,
           backgroundColor: _backgroundColor,
